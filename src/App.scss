@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Butcherman&family=Roboto:ital,wght@0,100;0,400;0,500;1,400&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+
+    & ::-webkit-scrollbar{
+        display: none;
+    }
+}
+a,h2{
+   color: white; 
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+$bg: rgb(30,30,30);
+
+.header{
+    height: 100px;
+    background-color: $bg;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    box-sizing: border-box;
+    justify-content: space-between;
+
+    >img{
+        height: 100%;
+    }
+
+>div{
+    // border: 1px solid red;
+    width: 100%;
+    margin-left: 2vmax;
+
+    >a{
+        margin: 1vmax;
+        font-size: 1rem;
+        font-weight: 300;
+    }
+}
+
+>svg{
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    
+    &:hover{
+    color: rgb(125, 119, 119);
+}
+}
+}
+
+
